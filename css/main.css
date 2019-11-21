@@ -1,0 +1,24 @@
+body {
+    background-color: #000;
+    color: #ddd;
+    text-align: center;
+    font-family: Helvetica, Arial, 'Sans-serif';
+}
+
+body::after {
+    content: "";
+    background-image: url('/img/background.jpeg');
+    background-size: cover;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;  
+}
+
+#logotipo {
+    margin-top: 50px;
+    width: 50%;
+}
