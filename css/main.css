@@ -9,7 +9,7 @@ body::after {
     content: "";
     background-image: url('/img/background.jpeg');
     background-size: cover;
-    opacity: 0.5;
+    opacity: 0.1;
     top: 0;
     left: 0;
     bottom: 0;
@@ -20,5 +20,53 @@ body::after {
 
 #logotipo {
     margin-top: 50px;
-    width: 50%;
+    width: 35%;
+    margin-left: -35px;
+}
+
+.btn-primary, .btn-primary:hover {
+    background-color: rgb(255, 145, 77);
+    border-color: rgb(225, 115, 57);
+}
+
+.btn-primary a {
+    color: #fff;
+}
+
+.cta {
+    margin-top: 50px;
+}
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    box-sizing: content-box;
+    border-radius: 5px;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+} 
+.fa-instagram {
+    background: #125688;
+    color: white;
 }
