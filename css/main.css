@@ -25,6 +25,7 @@ body::after {
 
 .btn-primary a {
     color: #fff;
+    font-weight: bold;
 }
 
 .cta {
@@ -83,4 +84,8 @@ body::after {
 .fa-whatsapp {
     background: #06d755;
     color: white;
+}
+.address {
+    margin-top:10px;
+    font-weight: bold;
 }
